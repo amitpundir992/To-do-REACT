@@ -1,14 +1,13 @@
 {
   "name": "vite-project",
-  "homepage": "https://amitpundir992.github.io/To-do-REACT",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview"
   },
